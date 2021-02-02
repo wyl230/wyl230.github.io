@@ -37,23 +37,26 @@
 	}
 	
 	.page-disabled{
-		color:#ccc;
+		/* color:#ff6600; */
+        /* background-color: #005aa0; */
+        background-color: #ff6600;
 	}
 	
 	.page-next i,.page-disabled i{
 		cursor:pointer;/*设置鼠标经过时的显示状态，这里设置的是显示状态为小手状态*/
-		display:inline-block;/*设置显示的方式为行内块元素*/
+		/* display:inline-block;设置显示的方式为行内块元素 */
 		width:5px;
 		height:9px;
 		/* background-image:url(http://img.mukewang.com/547fdbc60001bab900880700.gif); */
 	}
 	.page-disabled i{
-		background-position:-80px -608px;
+        background-color: #ff6600;
+		/* background-position:80px -608px; */
 		margin-right:3px;
 	}
  
 	.page-next i{
-		background-position:-62px -608px;
+		/* background-position:-62px -608px; */
 		margin-left:3px;
 	}
 </style>
@@ -65,16 +68,20 @@
     <!-- <span class="page-current">1</span> -->
      <a href="all16-0-100.html">1</a>
     <a href="all16-100-200.html">2</a>
-    <a href="all16-200-300.html">3</a><p></p>
+    <a href="all16-200-300.html">3</a>
+</div><div class="page-icon">
     <a href="all16-300-400.html">4</a>
     <a href="all16-400-500.html">5</a>
     <a href="all16-500-600.html">6</a><p></p>
+</div><div class="page-icon">
     <a href="all16-600-700.html">7</a>
     <a href="all16-700-800.html">8</a>
     <a href="all16-800-900.html">9</a><p></p>
+</div><div class="page-icon">
     <a href="all16-900-1000.html">10</a>
     <a href="all16-1000-1100.html">11</a>
     <a href="all16-1100-1200.html">12</a><p></p>
+</div><div class="page-icon">
     <a href="all16-1200-1300.html">13</a>
     <a href="all16-1300-1400.html">14</a>
     <a href="all16-1400-1500.html">15</a><p></p>
@@ -98,35 +105,33 @@
  
 <div class="page-icon">
 	<span class="page-disabled"><i></i>else<br></span>
+</div><div class="page-icon">
     <!-- <span class="page-current">1</span> -->
     <a href="likes0.html">1</a>
 <a href="likes1.html">2</a>
 <a href="likes2.html">3</a><p></p>
+</div><div class="page-icon">
 <a href="likes3.html">4</a>
 <a href="likes4.html">5</a>
 <a href="likes5.html">6</a><p></p>
+</div><div class="page-icon">
 <a href="likes6.html">7</a>
 <a href="likes7.html">8</a>
 <a href="likes8.html">9</a><p></p>
+</div><div class="page-icon">
 <a href="likes9.html">10</a>
 <a href="likes10.html">11</a>
-<!-- 
-    <a href="#">3</a>
-    <a href="#">4</a>
-    <a href="#">5</a>
-    <a href="#">6</a>
-    <a href="#">7</a>
-    <a href="#">8</a>
-    <a href="#">9</a>
-    <a href="#">10</a>
-    <a href="#">11</a>
-    <a href="#">12</a>
-    <a href="#">13</a>
-    <a href="#">14</a>
-    <a href="#">15</a>
-    <a href="#">200</a> -->
+</div><div class="page-icon">
+	<span class="page-disabled"><a href="-15.html">before 2015</a></span>
     <!-- <a class="page-next" href="#">下一页<i></i></a> -->
 </div>
+
+</div><div class="page-icon">
+	<span class="page-disabled"><a href="up.html">upup</a></span>
+    <!-- <a class="page-next" href="#">下一页<i></i></a> -->
+</div>
+</div><div class="page-icon">
+	<span class="page-disabled"><a href="up2.html">upup2</a></span>
 
 </body>
 </html>
